@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">    
+    <title>Spider-Man Quiz</title>
+    <meta name='description' content="A quiz app about Spider-Man.">
+
+    <link rel="shortcut icon" href= "#">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <main role ="main" class="container">
+        <header role="banner" class="header">   
+            <section>
+                <div class="title">
+                    <h1>Are you a Spider-Man fan?</h1>
+                </div> 
+            </section>
+        </header>
+        
+        <section role="form" class="questBox">
+            <section class="home box">
+                <h1>Do you think you know Spider-Man?</h1>
+                <img src="images/spideyThinking.jpg" alt="Spider-Man thinking" class="image">
+                <button type="button" class="startButton"> Start Quiz</button>
+            </section>
+        <section class="questionBox box alt"></section>
+        <section class="feedback box alt"></section>
+        <section class="results box alt"></section>
+        <footer> 
+                <ul>
+                    <li class="status">Question:
+                        <span class="questionNum">0</span>/5
+                    </li>
+                    <li class="status">Score:
+                        <span class="score">0</span>/5
+                    </li>
+                </ul>
+            </footer>
+        </section>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
